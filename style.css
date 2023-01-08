@@ -1,15 +1,25 @@
     h1 {
-        color: red;
-        font-family: 'Teddy Bear';
+        color: rgb(19, 13, 13);
+        font-family: 'Sunday';
     }
 
     h2 {
-        color: rgb(185, 197, 9);
-        font-family: 'Teddy Bear';
+        color: rgb(129, 31, 6);
+        font-family: 'Sunday';
     }
 
     h2 {
-        font-family: 'Teddy Bear';
+        font-family: 'Sunday';
+    }
+
+    ul {
+        color: rgb(23, 151, 7);
+        font-family: 'Sunday';
+    }
+
+    ol {
+        color: rgb(22, 8, 145);
+        font-family: 'Sunday';
     }
 
 
@@ -18,21 +28,21 @@
     }
 
     .big_text {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     @font-face {
-        font-family: 'Teddy Bear';
-        src: url('fonts/teddy_bear.eot');
+        font-family: 'Sunday';
+        src: url('../fonts/sunday.eot');
         /* IE 9 Compatibility Mode */
-        src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'),
+        src: url('../fonts/sunday.eot?#iefix') format('embedded-opentype'),
             /* IE < 9 */
-            url('fonts/teddy_bear.woff2') format('woff2'),
+            url('../fonts/sunday.woff2') format('woff2'),
             /* Super Modern Browsers */
-            url('fonts/teddy_bear.woff') format('woff'),
+            url('../fonts/sunday.woff') format('woff'),
             /* Firefox >= 3.6, any other modern browser */
-            url('fonts/teddy_bear.ttf') format('truetype'),
+            url('../fonts/sunday.ttf') format('truetype'),
             /* Safari, Android, iOS */
-            url('fonts/teddy_bear.svg#teddy_bear') format('svg');
+            url('../fonts/sunday.svg#sunday') format('svg');
         /* Chrome < 4, Legacy iOS */
     }
